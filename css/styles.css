@@ -1,0 +1,54 @@
+.exercise {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.shapes{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.triangle{
+ 
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid lime;
+}
+.triangle:hover {
+  position:relative;
+  bottom:20px;
+  border-bottom: 50px solid purple;
+}
+.square {
+  margin-left:30px;
+  margin-right:30px;
+  height: 50px;
+  width: 50px;
+  background-color: red;
+}
+.square:hover {
+  position:relative;
+  bottom:20px;
+  background-color: yellow; /* Change the color on hover */
+}
+.circle {
+  height: 50px;
+  width: 50px;
+  background-color: blue;
+  border-radius: 50%;
+}
+.circle:hover {
+  position:relative;
+  bottom:20px;
+  background-color: black; /* Change the color on hover */
+  
+}
+
+
+button {
+  position:relative;
+  top:20px
+}
